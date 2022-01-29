@@ -1,10 +1,12 @@
 /* Fontes */
-h1, h2 {
+h1, h2, .btn-first, .btn-second {
     font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
 }
 
 /* Section intro */
@@ -38,6 +40,7 @@ p {
 .subtitle {
     padding-top: 1rem;
     font-size: 0.9rem;
+    color: hsl(192, 100%, 9%);
 }
 
 .btn-second {
@@ -56,15 +59,20 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 55rem;
+    height: 70rem;
     padding-top: 5rem;
+    margin-bottom: 15rem;
 }
 
 .grow-together, .flowing-conversations, .your-users {
-    width: 60%;
-    height: 15rem;
-    border: 1px solid black;
+    width: 65%;
+    height: 20rem;
+    border: 1px solid hsl(193, 26%, 87%);
     margin: auto;
+}
+
+.row-grow, .row-flow, .row-users {
+    padding-top: 4rem;
 }
 
 /* Flowing conversations */
@@ -88,9 +96,69 @@ p {
     padding-left: 2rem;
 }
 
+.title-2 {
+    font-size: 1.5rem;
+}
+
+.subtitle-2 {
+    font-size: 0.8rem;
+}
+
 /* Imagens */
 .col-img-2, .col-img-3, .col-img-4 {
     display: flex;
-    justify-content: center;
-    padding-top: 1rem;
+    justify-content: center
 }
+
+/* Footer */
+.end {
+    background-color: hsl(192, 100%, 9%);;
+}
+
+.col-logo {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.logo-2 {
+    background-color: #fff;
+}
+
+.container-lists, .copyright {
+    color: #ffffff;
+}
+
+/* Contact */
+.col-contact {
+    width: 20%;
+}
+
+.local, .phone, .email {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.local {
+    list-style-image: url(img/icon-location.svg);
+}
+
+.phone {
+    list-style-image: url(img/icon-phone.svg);
+}
+
+.email {
+    list-style-image: url(img/icon-email.svg);
+}
+
+/* About */
+.about, .career {
+    list-style: none;
+}
+
+li {
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+
