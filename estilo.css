@@ -1,0 +1,96 @@
+/* Fontes */
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Section intro */
+.intro {
+    background-image: url(img/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+/* Container 1 */
+.container-1, .container-2, .title {
+    padding-top: 2rem;
+}
+
+.btn-first, .btn-second {
+    border-radius: 1rem;
+}
+
+.btn-first {
+    width: 10rem;
+}
+
+/* Container 2 */
+.container-2 {
+    padding-bottom: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.subtitle {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.btn-second {
+    width: 15rem;
+    background-color: hsl(322, 100%, 66%);
+    color: #ffffff;
+}
+
+.col-img {
+    display: flex;
+    justify-content: center;
+}
+
+/* Section middle content */
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55rem;
+    padding-top: 5rem;
+}
+
+.grow-together, .flowing-conversations, .your-users {
+    width: 60%;
+    height: 15rem;
+    border: 1px solid black;
+    margin: auto;
+}
+
+/* Flowing conversations */
+.row-flow {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Textos */
+.col-text-1, .col-text-2, .col-text-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col-text-2 {
+    padding-right: 2rem;
+}
+
+.col-text-1, .col-text-3 {
+    padding-left: 2rem;
+}
+
+/* Imagens */
+.col-img-2, .col-img-3, .col-img-4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
