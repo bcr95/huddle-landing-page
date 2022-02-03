@@ -9,8 +9,4 @@
     <li>CSS</li>
     <li>Flexbox</li>
     <li>Bootstrap</li>
-<<<<<<< HEAD
 </ul>
-=======
-</ul>
->>>>>>> a52a4c4832bebc28afb66b733fb85b4f8500507f
