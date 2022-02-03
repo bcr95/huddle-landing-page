@@ -9,5 +9,4 @@
     <li>CSS</li>
     <li>Flexbox</li>
     <li>Bootstrap</li>
-    <li>Font Awesome para os ícones das redes sociais</li>
 </ul>
