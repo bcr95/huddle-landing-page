@@ -380,3 +380,22 @@ footer {
     }
 
 }
+
+@media (max-width: 500px) {
+
+    /* Segunda Section */
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    /* Terceira Section */
+    .end {
+        width: 70%;
+        height: 14rem;
+        margin-left: 15%;
+    }
+}
